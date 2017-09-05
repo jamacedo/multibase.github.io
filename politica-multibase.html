@@ -1,0 +1,252 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html id="iubenda_policy" class="iubenda_fixed_policy">
+<head>
+<title>Política de Privacidade do Multibase</title>
+<meta content="Este Aplicativo recolhe alguns Dados Pessoais dos Usuários." name="description"/>
+<meta content="privacy policy" name="keywords"/>
+<meta http-equiv="Content-Language" content="pt-BR"/>
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"cff3f9c950","applicationID":"541403","transactionName":"cF4LTEIMD1RURBdDWkdUSkhCChVZUk9nQFxfWAZBHxALV0Y=","queueTime":0,"applicationTime":241,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XAUFU1VADQcBUFFR"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);</script>
+<meta http-equiv="date" content="2017-02-13">
+<meta http-equiv="last-modified" content="2017-02-13">
+<meta property="og:title" content="Política de Privacidade do Multibase"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="https://www.iubenda.com/images/site/fb-image.png"/>
+<meta property="og:site_name" content="iubenda"/>
+<meta property="fb:app_id" content="190131204371223"/>
+<link rel="image_src" href="https://www.iubenda.com/images/site/fb-image.png"/>
+<meta name="viewport" content="width=device-width">
+<link href="assets/privacy_policy-68e108a4d920ec894c9623041ac2b44b.css" media="screen" rel="stylesheet" type="text/css"/>
+<script src="assets/privacy_policy-8d4bd4976bc7da7aa31d07fab367b627.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="wbars_all">
+<div class="iub_container iub_base_container">
+<div id="wbars">
+<div class="iub_content legal_pp">
+<div class="iub_header">
+<h1>Política de Privacidade do <strong>Multibase</strong></h1>
+<p>Este Aplicativo recolhe alguns Dados Pessoais dos Usuários.</p>
+</div>  
+<div class="simple_pp">
+<div class="one_line_col">
+<h2 style="text-align: center; font-variant:small-caps;">Resumo da Política de privacidade</h2>
+</div>  
+<h2>Os Dados Pessoais são coletados para os seguintes propósitos e usando os seguintes serviços:</h2>
+<ul class="for_boxes cf">
+<li class="one_line_col">
+<ul class="for_boxes">
+<li>
+<div class="iconed policyicon_purpose_5">
+<h3>Estatísticas</h3>
+<ul>
+<li>
+<h3>Google Analytics</h3>
+<p>Dados Pessoais: Cookie e Dados de Uso</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<div class="iconed policyicon_purpose_9">
+<h3>Registro e autenticação</h3>
+<ul>
+<li>
+<h3>Registro direto</h3>
+<p>Dados Pessoais: cidade, data de nascimento, e-mail, endereço, língua, nome, número de telefone, país, profissão, senha e sobrenome</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</div>  
+<div class="one_line_col">
+<h2 style="text-align: center; font-variant:small-caps;">Política de privacidade completa</h2>
+</div>  
+<div class="one_line_col">
+<h2>Controlador de Dados e Proprietário</h2>
+</div>  
+<div class="one_line_col">
+<h2>Tipos de Dados coletados</h2>
+<p>
+Entre os tipos de Dados Pessoais que este Aplicativo recolhe, por si só ou por meio terceiros, estão:
+Cookie, Dados de Uso, nome, sobrenome, data de nascimento, número de telefone, endereço, e-mail, senha, profissão, país, cidade e língua.
+</p>
+<p>Outros Dados Pessoais recolhidos podem ser descritos em outras seções desta política de privacidade ou pelo texto explicativo específico apresentado no contexto da coleta de Dados.<br/>Os Dados Pessoais podem ser livremente fornecidos pelo Usuário, ou coletados automaticamente quando se utiliza este Aplicativo.<br/>Qualquer uso de Cookies - ou de outras ferramentas de rastreamento - pelo este Aplicativo ou pelos proprietários dos serviços terceirizados utilizados por este Aplicativo, salvo indicação em contrário, servem para identificar os Usuários e lembrar as suas preferências, com o único propósito de fornecer os serviços requeridos pelos Usuários.<br/>O não fornecimento de determinados Dados Pessoais pode tornar impossível para este Aplicativo prestar os seus serviços.</p>
+<p>O Usuário assume a responsabilidade pelos Dados Pessoais de terceiros publicados ou compartilhados por meio deste serviço (este Aplicativo) e confirma que tem o consentimento da parte terceira para fornecer Dados para o Proprietário.</p>
+</div>  
+<div class="one_line_col">
+<h2>Modo e local de processamento dos Dados</h2>
+<h3>Método de processamento</h3>
+<p>O Controlador de Dados processa os dados de Usuários de forma adequada e tomará as medidas de segurança adequadas para impedir o acesso não autorizado, divulgação, alteração ou destruição não autorizada dos Dados.<br/>O processamento de dados é realizado utilizando computadores e /ou ferramentas de TI habilitadas, seguindo procedimentos organizacionais e meios estritamente relacionados com os fins indicados. Além do Controlador de Dados, em alguns casos, os Dados podem ser acessados por certos tipos de pessoas envolvidas com a operação do site (administração, vendas, marketing, administração legal do sistema) ou pessoas externas (como fornecedores terceirizados de serviços técnicos, carteiros, provedores de hospedagem, empresas de TI, agências de comunicação) nomeadas, quando necessário, como Processadores de Dados por parte do Proprietário. A lista atualizada destas partes pode ser solicitada a partir do Controlador de Dados a qualquer momento.</p>
+<h3>Lugar</h3>
+<p>Os dados são processados nas sedes de operação do Controlador de Dados, e em quaisquer outros lugares onde as partes envolvidas com o processamento estejam localizadas. Para mais informações, por favor entre em contato com o Controlador de Dados.</p>
+<h3>Período de conservação</h3>
+<p>Os Dados são mantidos pelo período necessário para prestar o serviço solicitado pelo Usuário, ou pelos fins descritos neste documento, e o Usuário pode solicitar o Controlador de Dados para que os suspenda ou remova.</p>
+</div>  
+<div class="one_line_col">
+<h2>O Uso dos Dados coletados</h2>
+<p>
+Os Dados relativos ao Usuário são coletados para permitir que o Proprietário forneça os serviços, bem como para os seguintes propósitos:
+Estatísticas e Registro e autenticação.
+</p>
+<p>Os Dados Pessoais utilizados para cada finalidade estão descrito nas seções específicas deste documento.</p>
+</div>  
+<div class="one_line_col">
+<h2>Informações detalhadas sobre o processamento de Dados Pessoais</h2>
+<p>Os Dados Pessoais são recolhidos para os seguintes fins e utilizando os seguintes serviços:</p>
+<ul class="for_boxes">
+<li>
+<div class="box_primary box_10 expand">
+<h3 class="expand-click w_icon_24 policyicon_purpose_3426027">Estatísticas</h3>
+<div class="expand-content">
+<p>Os serviços contidos nesta seção habilitam o Proprietário a monitorar e analisar o tráfego da web e podem ser usados para rastrear o comportamento do Usuário.</p>
+<h4>Google Analytics (Google Inc.)</h4>
+<p>O Google Analytics é um serviço de análise da Internet fornecido pela Google Inc. ("Google"). O Google utiliza os dados coletados para acompanhar e examinar o uso deste serviço (este Aplicativo) para preparar relatórios sobre atividades e compartilhá-los com outros serviços do Google.<br/>
+O Google pode usar os dados coletados para contextualizar e personalizar os anúncios de sua própria rede de publicidade.</p>
+<p>
+Dados Pessoais coletados:
+Cookie e Dados de Uso.
+</p>
+<p>
+Lugar de processamento: EUA
+&ndash;
+<a href="https://www.google.com/intl/pt/policies/privacy/" target="_blank">Política de Privacidade</a>
+&ndash;
+<a href="https://tools.google.com/dlpage/gaoptout?hl=en" onClick="javascript:return tryFunc('tryGaOptOut',{href:'https://tools.google.com/dlpage/gaoptout?hl=en'})" target="_blank">Opt Out</a>
+</p>
+</div>  
+</div>  
+</li>
+<li>
+<div class="box_primary box_10 expand">
+<h3 class="expand-click w_icon_24 policyicon_purpose_3426315">Registro e autenticação</h3>
+<div class="expand-content">
+<p>Ao se registrar ou autenticar, os Usuários permitem a este serviço (este Aplicativo) identificá-los e dar-lhes o acesso a serviços dedicados.
+Dependendo do que estiver descrito abaixo, os serviços de registro e autenticação podem ser fornecidos por terceiros. Neste caso, este Aplicativo poderá acessar alguns Dados armazenados por estes serviços de terceiros para fins de registro ou identificação.</p>
+<h4>Registro direto (Este Aplicativo)</h4>
+<p>O Usuário se registra ao preencher o formulário de inscrição e fornecer os Dados Pessoais diretamente para este Aplicativo.</p>
+<p>
+Dados Pessoais coletados:
+cidade, data de nascimento, e-mail, endereço, língua, nome, número de telefone, país, profissão, senha e sobrenome.
+</p>
+</div>  
+</div>  
+</li>
+</ul>
+</div>  
+<div class="one_line_col">
+<h2>Informações adicionais sobre a coleta e processamento de Dados</h2>
+<h3>Ação jurídica</h3>
+<p>
+Os Dados Pessoais dos Usuários podem ser utilizados para fins jurídicos pelo Controlador de Dados em juízo ou nas etapas conducentes à possível ação jurídica decorrente de uso indevido deste serviço (este Aplicativo) ou dos serviços relacionados.<br/>O Usuário declara estar ciente de que o Controlador dos Dados poderá ser obrigado a revelar os Dados Pessoais mediante solicitação das autoridades governamentais.
+</p>
+<h3>Informações adicionais sobre os Dados Pessoais do Usuário</h3>
+<p>
+Além das informações contidas nesta política de privacidade, este Aplicativo poderá fornecer ao Usuário informações adicionais e contextuais sobre os serviços específicos ou a coleta e processamento de Dados Pessoais mediante solicitação.
+</p>
+<h3>Logs do sistema e manutenção</h3>
+<p>
+Para fins de operação e manutenção, este Aplicativo e quaisquer serviços de terceiros poderão coletar arquivos que gravam a interação com este Aplicativo (Logs do sistema) ou usar, para este fim, outros Dados Pessoais (tais como endereço IP).
+</p>
+<h3>As informações não contidas nesta política</h3>
+<p>
+Mais detalhes sobre a coleta ou processamento de Dados Pessoais podem ser solicitados ao Controlador de Dados, a qualquer momento. Favor ver as informações de contato no início deste documento.
+</p>
+<h3>Os direitos dos Usuários</h3>
+<p>
+Os Usuários têm o direito de, a qualquer tempo, consultar o Controlador de Dados para saber se os seus Dados Pessoais foram armazenados e saber mais sobre o conteúdo e origem, verificar a sua exatidão ou para pedir que sejam complementados, cancelados, atualizados ou corrigidos, ou que sejam transformados em formato anônimo ou bloquear quaisquer dados mantidos em violação da lei, bem como se opor ao seu tratamento por quaisquer todas as razões legítimas. Os pedidos devem ser enviados para o Controlador de Dados usando a informação de contato fornecida acima.
+</p>
+<p>
+Este Aplicativo não suporta pedidos de “Não Me Rastreie”.<br/>Para determinar se qualquer um dos serviços de terceiros que utiliza honram solicitações de “Não Me Rastreie”, por favor leia as políticas de privacidade.
+</p>
+<h3>Mudanças nesta política de privacidade</h3>
+<p>
+O Controlador de Dados se reserva o direito de fazer alterações nesta política de privacidade a qualquer momento, mediante comunicação aos seus Usuários nesta página. É altamente recomendável que esta página seja consultada várias vezes em relação à última modificação descrita na parte inferior. Se o Usuário não concorda com qualquer das alterações da Política de Privacidade, o Usuário deve cessar o uso deste serviço (este Aplicativo) e pode solicitar ao Controlador de Dados que apague os Dados Pessoais. Salvo disposição em contrário, a atual política de privacidade se aplica a todos os Dados Pessoais dos Usuários que o Controlador de Dados tiver.
+</p>
+<h3>Informações sobre esta política de privacidade</h3>
+<p>
+O Controlador de Dados é responsável por esta política de privacidade, elaborada a partir dos módulos fornecidos pela Iubenda e hospedados nos servidores da Iubenda.
+</p>
+</div>  
+<div class="one_line_col">
+<div class="box_primary box_10 definitions expand">
+<h3 class="expand-click w_icon_24 icon_ribbon">
+Definições e referências jurídicas
+</h3>
+<div class="expand-content">
+<h4>Dados Pessoais (ou Dados)</h4>
+<p>Quaisquer informações relativas a uma pessoa física, pessoa jurídica, instituição ou associação, as quais sejam, ou possam ser identificadas, mesmo que indiretamente, por referência a quaisquer outras informações, incluindo um número de identificação pessoal.</p>
+<h4>Dados de Uso</h4>
+<p>As informações coletadas automaticamente a partir deste serviço (ou serviços de terceiros contratados neste serviço (este Aplicativo), que podem incluir: os endereços IP ou nomes de domínio dos computadores utilizados pelos Usuários que utilizam este Aplicativo, os endereços URI (Identificador Uniforme de Recurso), a data e hora do pedido, o método utilizado para submeter o pedido ao servidor, o tamanho do arquivo recebido em resposta, o código numérico que indica o status do servidor de resposta (resultado positivo, erro , etc.), o país de origem, as características do navegador e do sistema operacional utilizado pelo Usuário, os vários detalhes de tempo por visita (por exemplo, o tempo gasto em cada página dentro do aplicativo) e os detalhes sobre o caminho seguido dentro da aplicação, com especial referência à sequência de páginas visitadas e outros parâmetros sobre o sistema operacional do dispositivo e/ou ambiente de TI do Usuário.</p>
+<h4>Usuário</h4>
+<p>A pessoa que usa este Aplicativo que deverá coincidir com ou estar autorizada pelo Titular dos Dados a quem os Dados Pessoais se referem.</p>
+<h4>Titular dos Dados</h4>
+<p>A pessoa jurídica ou física a quem os Dados Pessoais se referem.</p>
+<h4>Processador de Dados (ou supervisor de Dados)</h4>
+<p>A pessoa física, pessoa jurídica, a administração pública ou qualquer outro órgão, associação ou organização autorizada pelo Controlador de Dados para o processamento dos Dados Pessoais em conformidade com esta política de privacidade.</p>
+<h4>Controlador de Dados (ou Proprietário)</h4>
+<p>A pessoa física, pessoa jurídica, administração pública ou qualquer outra entidade, associação ou organização com direitos, também em conjunto com outro controlador dos dados, para tomar decisões sobre as finalidades e os métodos de processamento de Dados Pessoais e os meios utilizados, incluindo medidas de segurança relativas ao funcionamento e ao uso deste serviço. O Controlador de Dados, a menos que seja especificado de outra forma, é o Proprietário deste serviço (este Aplicativo).</p>
+<h4>Este Aplicativo</h4>
+<p>A ferramenta de hardware ou software pela qual os Dados Pessoais do usuário são coletados.</p>
+<h4>Cookie</h4>
+<p>Pequenas unidades de dados armazenados no dispositivo do Usuário.</p>
+<hr/>
+<h4>Informação jurídica</h4>
+<p>Aviso aos Usuários Europeus: esta declaração de privacidade foi elaborada em cumprimento das obrigações nos termos do art. n.10 da Diretiva 95/46/CE, e de acordo com as disposições da Diretiva 2002/58/CE, tal como revisto pela Diretiva 2009/136/CE, sobre o assunto de Cookies.</p>
+<p>Esta política de privacidade é apenas sobre este Aplicativo.</p>
+</div>  
+</div>  
+</div>  
+<div class="iub_footer">
+<p>
+Última atualização: 13 de fevereiro de 2017
+</p>
+</div>  
+<script type="text/javascript">
+  function tryFunc(fName,args){
+    if(typeof window[fName]==='function'){
+      window[fName](args);
+    }else{
+      if(args){
+        /* default behaviour is link */
+        if(args.href){
+          /* default link is target='_blank' */
+          window.open(args.href)
+        }
+      }
+    }
+    return false; /* inhibit default behaviour */
+  }
+</script>
+</div>  
+</div>  
+</div>  
+</div>  
+<script type="text/javascript">
+
+
+    $(document).ready(function() {
+
+
+
+			$(".expand-content").hide();
+			$(".expand").addClass("collapsed");
+			$(".expand .expand-click").click(function () {
+				$(this).parents(".expand").toggleClass("collapsed");
+				$(this).parents(".expand").toggleClass("expanded");
+				$(this).parents(".expand-item").toggleClass("hover");
+				$(this).children('.icon-17').toggleClass("icon-expand");
+				$(this).children('.icon-17').toggleClass("icon-collapse");
+				$(this).parents('.expand').children('.expand-content').slideToggle("fast");
+			});
+
+    });
+
+  </script>
+</body>
+</html>
